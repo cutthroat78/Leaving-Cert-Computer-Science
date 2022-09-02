@@ -8,7 +8,7 @@ import csv
 
 #identify the file by name and tell the program to read the data
 File = open("adjectives.csv", "r")
-importedData = File.read()
+importedData = File.read().replace('\n', "")
 File.close
 
 #Split the imported data wherever it finds a comma and store as a list
@@ -16,7 +16,7 @@ adjectivesList = importedData.split(",")
 
 #1. Open the file animalNames.csv adn read it into this program
 File = open("animalNames.csv", "r")
-importedData = File.read()
+importedData = File.read().replace('\n', "")
 File.close
 
 #2. Split the imported aimal Names and save it as a new list
@@ -33,10 +33,7 @@ rAnimalNamesLoc = random.randint(0, maxAnimalNamesNumber)
 
 
 #4. Concatenate the new random animal name onto the userName.
-userName = ("".join([adjectivesList[rAdjectivesLoc],animalNamesList[rAnimalNamesLoc]]))
-
-
-print(userName)
+print("".join([adjectivesList[rAdjectivesLoc],animalNamesList[rAnimalNamesLoc]]))
 
 #5. Currently the adjectives are all lowercase.#
 #Alter the program so that the adjective in the username is capitalised.
