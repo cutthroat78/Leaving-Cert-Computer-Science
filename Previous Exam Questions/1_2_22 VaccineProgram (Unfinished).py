@@ -1,7 +1,3 @@
-#this is very current (;
-
-#save the file as your own name......so Aine_VaccineProgram.py
-
 s_name = input("Enter your surname:")
 
 f_name = input("Enter your first name:")

@@ -1,5 +1,4 @@
 # Question 16(a)
-# Name and School: Matthew Renehan, Clogher Road Community College
 import random # Imports random module
 
 while True:

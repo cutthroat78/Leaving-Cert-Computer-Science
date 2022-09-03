@@ -1,6 +1,4 @@
 # Question 16(a)
-#Examination Number: Matthew Renehan
-
  # Prompt the user to enter a password and store the ...
  # value entered in the variable password
 password = input("Enter a password: ")
