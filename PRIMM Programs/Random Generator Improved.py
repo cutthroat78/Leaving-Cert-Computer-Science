@@ -31,7 +31,6 @@ rAdjectivesLoc = random.randint(0, maxAdjectivesNumber)
 maxAnimalNamesNumber = len(animalNamesList)-1
 rAnimalNamesLoc = random.randint(0, maxAnimalNamesNumber)
 
-
 #4. Concatenate the new random animal name onto the userName.
 print("".join([adjectivesList[rAdjectivesLoc],animalNamesList[rAnimalNamesLoc]]))
 
