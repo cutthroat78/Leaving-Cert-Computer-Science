@@ -247,7 +247,6 @@ else:
 
 # Done an Exam Paper Question
 
-
  # Question 16(b)
  # # Examination Number:
 

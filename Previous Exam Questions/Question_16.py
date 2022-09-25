@@ -1,7 +1,7 @@
 # Done an Exam Paper Questions
 
 # Question 16(b)
-# # Examination Number: Matthew
+# # Examination Number:
 
 # This function multiplies two numbers
 def multiply(x, y):
