@@ -1,5 +1,5 @@
 #Question 16 (b)
-#Student name: Matthew Renehan
+#Student name: 
 import random # Import the python library named random
 ticket = [] # Define an empty list called ticket
 

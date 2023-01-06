@@ -1,5 +1,5 @@
 #To take individual letters from a string
-myString = "Matthew" # set my name as myString variable
+myString = "Jimmy" # set my name as myString variable
 print(myString) # print myString variable
 myStringList = list(myString) # set myString as a list
 print(myStringList) # print myStringList variable

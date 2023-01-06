@@ -1,6 +1,5 @@
-
 # Question 16(a)
-# Student name: Matthew Renehan
+# Student name:
 import random # Import the python library named random
 
 def dice_game(): # definte a function called dice_game
